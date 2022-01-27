@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">our people everywhere v2.0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="pref_file_key">pref_file_key</string>
+    <string name="pref_is_user_login">is_user_login</string>
+    <string name="pref_user_username">user_username</string>
+    <string name="pref_user_email">user_email</string>
+    <string name="pref_user_id">user_id</string>
+    <string name="menu_home">Дім</string>
+    <string name="menu_convertor">Перетворювач</string>
+    <string name="menu_alarm_numbers">Телефони служби екстреної допомоги</string>
+    <string name="log_in">Вхід</string>
+    <string name="sign_in">Реєстрація</string>
+    <string name="username">логін</string>
+    <string name="password">пароль</string>
+    <string name="log_out">Вихід</string>
+    <string name="email">електрона пошта</string>
+    <string name="to">до</string>
+    <string name="from">з</string>
+    <string name="home">Дім</string>
+    <string name="unit_convertor">Перетворювач одиниць</string>
+    <string name="alarm_numbers">Телефони служби екстреної допомоги</string>
+    <string name="chose_language">Мова</string>
+</resources>

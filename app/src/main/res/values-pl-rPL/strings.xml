@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">our people everywhere v2.0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="pref_file_key">pref_file_key</string>
+    <string name="pref_is_user_login">is_user_login</string>
+    <string name="pref_user_username">user_username</string>
+    <string name="pref_user_email">user_email</string>
+    <string name="pref_user_id">user_id</string>
+    <string name="menu_home">Dom</string>
+    <string name="menu_convertor">Przelicznik</string>
+    <string name="menu_alarm_numbers">Numery alarmowe</string>
+    <string name="log_in">Zaloguj się</string>
+    <string name="sign_in">Zarejestruj się</string>
+    <string name="username">login</string>
+    <string name="password">hasło</string>
+    <string name="log_out">Wylogować się</string>
+    <string name="email">e-mail</string>
+    <string name="to">do</string>
+    <string name="from">z</string>
+    <string name="home">Dom</string>
+    <string name="unit_convertor">Przelicznik jednostkowy</string>
+    <string name="alarm_numbers">Numery alarmowe</string>
+    <string name="chose_language">Język</string>
+</resources>

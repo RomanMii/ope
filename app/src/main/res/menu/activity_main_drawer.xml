@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_convertor"
+            android:icon="@drawable/unit_conv"
+            android:title="@string/unit_convertor" />
+        <item
+            android:id="@+id/nav_alarmnumbers"
+            android:icon="@drawable/alarm_number"
+            android:title="@string/alarm_numbers" />
+    </group>
+</menu>

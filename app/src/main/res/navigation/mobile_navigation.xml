@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ti38b.ourpeopleeverywhere.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_convertor"
+        android:name="com.ti38b.ourpeopleeverywhere.ui.convertor.ConvertorFragment"
+        android:label="@string/menu_convertor"
+        tools:layout="@layout/fragment_Convertor" />
+
+    <fragment
+        android:id="@+id/nav_alarmnumbers"
+        android:name="com.ti38b.ourpeopleeverywhere.ui.alarmnumbers.SlideshowFragment"
+        android:label="@string/menu_alarm_numbers"
+        tools:layout="@layout/fragment_alaem_numbers" />
+</navigation>

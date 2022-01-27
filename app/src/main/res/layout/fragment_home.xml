@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.ti38b.ourpeopleeverywhere.ui.home.HomeViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/newQuestionText"
+            android:layout_width="match_parent"
+            android:text="@={viewModel.textField}"
+            android:layout_height="100dp"/>
+
+        <ImageButton
+            android:id="@+id/newQuestionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{(v)->viewModel.onAddQuestionButtonClick(v)}"
+            android:background="@color/white"
+            android:src="@drawable/ask"
+            android:layout_gravity="end"/>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/questionListSwipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/questionList"
+                />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+</layout>
